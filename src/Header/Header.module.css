@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #d6cfcf;
+    grid-area: h;
+}
+.companyname{
+    margin:0 auto;
+    align-items: center;
+    width: 500px;
+    display: flex;
+    font-family: cursive;
+    color: #ddb43e;
+    font-size: 36px;
+}
+.icon{
+    width: 450px;
+}
+.header img {
+    height: 70px;
+    width: 70px;
+}

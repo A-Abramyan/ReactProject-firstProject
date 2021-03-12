@@ -1,0 +1,27 @@
+.navbar {
+    display: grid;
+    background-color: #d6cfcf;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.allnav{
+    padding-left: 25px;
+}
+
+.item {
+    /*text-decoration: none;*/
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.item a {
+    text-decoration: none;
+    color: #051441;
+}
+
+.item a.activeLink{
+    font-size: 40px;
+    color: #ddb43e;
+}

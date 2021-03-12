@@ -1,0 +1,23 @@
+body {
+  background-color: #051441;
+}
+.app-wrapper{
+  margin: 0 auto;
+  width: 1050px;
+  height: 700px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    'h h '
+    'n p'
+    
+}
+.app-wrapper-content{
+  background-color: #d6cfcf;
+  grid-area: p;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 800px;
+  height: 100%;
+  border-radius: 10px;
+}
